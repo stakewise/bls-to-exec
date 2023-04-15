@@ -13,6 +13,8 @@ are located in [validators.txt](validators.txt) file.
 This tool generates payloads for changing the withdrawal public key to the execution
 address `0x2296e122c1a20Fca3CAc3371357BdAd3be0dF079`.
 
+The generated payloads are located in [payloads.json](payloads.json) file.
+
 ## Requirements
 
 - [Python 3.10+](https://www.python.org/downloads/)
@@ -24,5 +26,5 @@ Install dependencies and generate payloads:
 
 ```sh
 poetry install --no-dev
-python main.py
+python src/main.py
 ```
