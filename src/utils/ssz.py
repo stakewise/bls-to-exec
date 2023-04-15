@@ -7,7 +7,7 @@ from ssz import (
     bytes48
 )
 
-from utils.constants import (
+from src.utils.constants import (
     DOMAIN_BLS_TO_EXECUTION_CHANGE,
 )
 
