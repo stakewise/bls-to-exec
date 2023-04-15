@@ -7,9 +7,7 @@ from ssz import (
     bytes48
 )
 
-from src.utils.constants import (
-    DOMAIN_BLS_TO_EXECUTION_CHANGE,
-)
+from .constants import DOMAIN_BLS_TO_EXECUTION_CHANGE
 
 bytes8 = ByteVector(8)
 bytes20 = ByteVector(20)
