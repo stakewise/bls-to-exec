@@ -10,8 +10,8 @@ EXECUTION_WITHDRAWAL_ADDRESS = to_canonical_address('0x2296e122c1a20Fca3CAc33713
 BLS_WITHDRAWAL_PUBLIC_KEY = bytes.fromhex(
     '8b126e1a0e186a10d9fbaed2f8dc8f4d4c48459941d71ca9e9bfe3cbc54a638e9f726a0fa7e276eddadd7caa8afe27fb'
 )
-VALIDATORS_FILE = Path(Path(__file__).parent.resolve(), '../validators.txt')
-PAYLOADS_FILE = Path(Path(__file__).parent.resolve(), '../payloads.json')
+VALIDATORS_FILE = Path(Path(__file__).parent.parent.resolve(), 'validators.txt')
+PAYLOADS_FILE = Path(Path(__file__).parent.parent.resolve(), 'payloads.json')
 
 
 def get_bls_to_execution_change_signing_root(validator_index: int) -> bytes:
