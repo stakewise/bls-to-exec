@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bls-to-exec"
+version = "0.1.0"
+description = "The tool to swap from BLS to execution address for StakeWise validators"
+authors = ["Dmitri Tsumak <dmitri@stakewise.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bls_to_exec"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ssz = "==0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
